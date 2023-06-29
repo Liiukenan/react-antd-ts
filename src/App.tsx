@@ -1,24 +1,16 @@
+/*
+ * @Date: 2023-06-29 10:15:47
+ * @LastEditors: kenan
+ * @LastEditTime: 2023-06-29 14:15:50
+ */
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Orange from './Orange';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Orange></Orange>
     </div>
   );
 }
