@@ -1,7 +1,7 @@
 /*
  * @Date: 2023-06-29 14:14:39
  * @LastEditors: kenan
- * @LastEditTime: 2023-06-29 14:56:36
+ * @LastEditTime: 2023-06-29 15:24:03
  */
 import React from 'react'
 import logo from './assets/logo.png'
@@ -17,13 +17,13 @@ const myName = (user: User) => {
     </div>
   )
 }
- const  tmp=React.createElement('h1',{style:{color:'red'},className:'test'},'这是个测试文字')
+const tmp = React.createElement('h1', { style: { color: 'red' }, className: 'test' }, '这是个测试文字')
 const Orange = () => {
   const user: User = {
     name: 'kenan',
     age: 18
   }
-  const myElement=<div>
+  const myElement = <div>
     <img src={logo} alt="" />
   </div>
   return (
