@@ -1,15 +1,17 @@
 /*
  * @Date: 2023-06-29 10:15:47
  * @LastEditors: kenan
- * @LastEditTime: 2023-06-30 16:37:09
+ * @LastEditTime: 2023-07-05 10:29:31
  */
 import React from 'react';
 import './App.css';
+import Example3 from './components/Example3';
 // import Orange from './Orange';
 // import Fun from './Fun'
 // import Banana from './components/Banana'
 // import Toggle from './components/Toggle'
-import IfExample from './components/IfExample'
+// import IfExample from './components/IfExample'
+// import MapExample from './components/MapExample'
 function App() {
   return (
     <div className="App">
@@ -21,7 +23,9 @@ function App() {
      <Banana></Banana> */}
 
      {/* <Toggle></Toggle> */}
-     <IfExample></IfExample>
+     {/* <IfExample></IfExample> */}
+     {/* <MapExample></MapExample> */}
+     <Example3></Example3>
     </div>
   );
 }
