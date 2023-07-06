@@ -1,11 +1,12 @@
 /*
  * @Date: 2023-06-29 10:15:47
  * @LastEditors: kenan
- * @LastEditTime: 2023-07-05 10:29:31
+ * @LastEditTime: 2023-07-06 16:52:15
  */
 import React from 'react';
 import './App.css';
-import Example3 from './components/Example3';
+// import Example4 from './components/Example4';
+import Hook1 from './components/Hook/hook1';
 // import Orange from './Orange';
 // import Fun from './Fun'
 // import Banana from './components/Banana'
@@ -25,7 +26,8 @@ function App() {
      {/* <Toggle></Toggle> */}
      {/* <IfExample></IfExample> */}
      {/* <MapExample></MapExample> */}
-     <Example3></Example3>
+     {/* <Example4></Example4> */}
+     <Hook1></Hook1>
     </div>
   );
 }
