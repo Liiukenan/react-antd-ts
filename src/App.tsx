@@ -1,12 +1,12 @@
 /*
  * @Date: 2023-06-29 10:15:47
  * @LastEditors: kenan
- * @LastEditTime: 2023-07-06 16:52:15
+ * @LastEditTime: 2023-07-07 14:10:44
  */
 import React from 'react';
 import './App.css';
 // import Example4 from './components/Example4';
-import Hook1 from './components/Hook/hook1';
+import Hook2 from './components/Hook/hook2';
 // import Orange from './Orange';
 // import Fun from './Fun'
 // import Banana from './components/Banana'
@@ -27,7 +27,7 @@ function App() {
      {/* <IfExample></IfExample> */}
      {/* <MapExample></MapExample> */}
      {/* <Example4></Example4> */}
-     <Hook1></Hook1>
+     <Hook2></Hook2>
     </div>
   );
 }
