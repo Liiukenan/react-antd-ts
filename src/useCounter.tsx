@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react"
 /*
  * @Date: 2023-07-07 10:20:05
  * @LastEditors: kenan
- * @LastEditTime: 2023-07-07 16:11:24
+ * @LastEditTime: 2023-07-10 13:46:17
  */
 // 自定义hook
 function useCounter(start:any){
@@ -16,8 +16,7 @@ function useCounter(start:any){
 
   },[])
   useEffect(()=>{
-    console.log(count)
-    if(count>5){
+      if(count>5){
       clearInterval(timerRef.current)
     }
   },[count])
